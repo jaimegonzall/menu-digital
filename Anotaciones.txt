@@ -1,0 +1,15 @@
+El 11 de enero tuvimos un taller específico de Front-End, incidiendo bastante en el atomic design. En el taller debemos de desarrollar de manera individual una carta digital para un restaurante, en el que el cliente pueda seleccionar la cantidad de platos que quiere de cada uno y se vaya rellenando una especie de "carrito de la compra" con todo lo seleccionado. Para finalizar usaremos la API de Whatsapp para enviar un mensaje a cocina que reciba el pedido.
+
+--------------------------
+ARCHIVOS:
+https://drive.google.com/drive/folders/1WsjXw3N0ciN5BDhPCLP2YlQfZFMx-h8m
+
+EJEMPLO FRONT:
+https://andreabcm.github.io/Proyecto-final/
+
+---------------------------
+
+
+Facturar a través de una plataforma electrónica.
+
+Factz

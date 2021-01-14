@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://andreabcm.github.io/Proyecto-final/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Restaurante</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link rel="icon" href="https://andreabcm.github.io/Proyecto-final/img/favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&amp;display=swap" rel="stylesheet ">
+    <link rel="stylesheet " href="https://andreabcm.github.io/Proyecto-final/styles/style.css">
+    <link rel="stylesheet" href="./Menú Restaurante_files/style2.css">
+
+</head>
+<body>
+    <div id="principal" style="display: block;">
+        <header>
+            <div>
+                <h1>Food For Home</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <img class="logo" src="./Menú Restaurante_files/logo.png">
+        </header>
+        <div class="slider">
+        <div id="Tapas" class="cardSlider" onclick="filtrar(this)">
+            <img src="./Menú Restaurante_files/tapas.svg" alt=" ">
+            <p>Tapas</p>
+        </div>
+        <div id="Desayunos" class="cardSlider" onclick="filtrar(this)">
+            <img src="./Menú Restaurante_files/breakfast.svg" alt=" ">
+            <p>Desayunos</p>
+        </div>
+        <div id="Ensaladas" class="cardSlider" onclick="filtrar(this)">
+            <img src="./Menú Restaurante_files/salad.png" alt=" ">
+            <p>Ensaladas</p>
+        </div>
+        <div id="Almuerzos" class="cardSlider" onclick="filtrar(this)">
+            <img src="./Menú Restaurante_files/fastfood.svg" alt=" ">
+            <p>Almuerzos</p>
+        </div>
+        <div id="Cena" class="cardSlider" onclick="filtrar(this)">
+            <img src="./Menú Restaurante_files/dinner.svg" alt=" ">
+            <p>Cena</p>
+        </div>
+        <div id="Postres" class="cardSlider" onclick="filtrar(this)">
+            <img src="./Menú Restaurante_files/desert.svg" alt=" ">
+            <p>Postres</p>
+        </div>
+        <div id="Bebidas" class="cardSlider" onclick="filtrar(this)">
+            <img src="./Menú Restaurante_files/bebidas.svg" alt=" ">
+            <p>Bebidas</p>
+        </div>
+        <div id="Todos" class="cardSlider" onclick="filtrar(this)">
+            <img src="./Menú Restaurante_files/all.svg" alt=" ">
+            <p>Todos</p>
+        </div></div>
+
+        <div class="elementosMenu1">
+    <div class="elemento">
+    <img src="./Menú Restaurante_files/ensalada01.jpg" alt=" ">
+    <div class="texto ">
+        <p>12€</p>
+        <h5>Desayuno de la Casa</h5>
+        <h6>Con salsa ranch</h6>
+    </div>
+    <div class="contador" data-numero="2">
+        <button onclick="resta(this)" class="resta">-</button>
+        <p class="quantity">0</p>
+        <button onclick="suma(this)" class="suma">+</button>
+    </div>
+</div></div>
+
+        <footer>
+            <button class="iconos ">
+            <img src="./Menú Restaurante_files/home.svg" class="iconotamaño ">
+        </button>
+
+            <button class="iconos ">
+            <img src="./Menú Restaurante_files/bolsalike.svg" class="iconotamaño ">
+        </button>
+
+            <button onclick="cart()" class="botonCarrito">
+                <img src="./Menú Restaurante_files/bolsa.svg" class="imgboton">
+        </button>
+
+            <button class="iconos ">
+            <img src="./Menú Restaurante_files/corazon.svg" class="iconotamaño ">
+        </button>
+            <button class="iconos ">
+            <img src="./Menú Restaurante_files/usuario.svg" class="iconotamaño ">
+        </button>
+        </footer>
+    </div>
+
+    <div id="checkout" style="display: none;">
+
+        <header>
+            <div class="fila1">
+                <button onclick="retornar()" class="return"><img src="./Menú Restaurante_files/flechita.png" alt="return"></button>
+            </div>
+
+            <div class="fila2">
+                <h3>My Cart</h3>
+            </div>
+        </header>
+
+        <main>
+
+            <div class="elementosMenu2"></div>
+        </main>
+
+        <footer class="desglosePrecio">
+            <div class="precio">
+                <div class="columnaTexto">
+                    <p>Subtotal</p>
+                    <p>Tasas</p>
+                    <p>Delivery</p>
+                    <p>TOTAL</p>
+                </div>
+
+                <div class="columnaPrecio">
+                    <p id="subtotal">45€</p>
+                    <p id="tasas">4.5€</p>
+                    <p id="delivery">FREE</p>
+                    <p id="total">49.5€</p>
+                </div>
+            </div>
+            <button class="boton2" onclick="botonEnviarPedido()">Enviar pedido</button>
+        </footer>
+
+    </div>
+    <script src="./Menú Restaurante_files/contador.js.descarga"></script>
+    <script src="./Menú Restaurante_files/listaplatos.js.descarga"></script>
+    <script src="./Menú Restaurante_files/elementos.js.descarga"></script>
+    <script src="./Menú Restaurante_files/categorias.js.descarga"></script>
+    <script src="./Menú Restaurante_files/carritoCompra.js.descarga"></script>
+    <script src="./Menú Restaurante_files/cambioDePantalla.js.descarga"></script>
+    <script src="./Menú Restaurante_files/filtroCategorias.js.descarga"></script>
+    <script src="./Menú Restaurante_files/desglosePrecio.js.descarga"></script>
+
+
+
+</body></html>
